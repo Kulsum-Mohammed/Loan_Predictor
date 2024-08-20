@@ -1,5 +1,4 @@
 import streamlit as st
-pip install pickle
 import pickle
 from PIL import Image
 

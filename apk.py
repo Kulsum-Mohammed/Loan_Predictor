@@ -1,11 +1,9 @@
 import streamlit as st
+!pip install pickle
 import pickle
 from PIL import Image
 
 def main():
-    img1 = Image.open('/content/Screenshot (245).png')
-    img1 = img1.resize((156,145))
-    st.image(img1,use_column_width=False)
     bg = """<div style ='backgroung-color:blue; padding:15px'>
             <h1 style='color:white'> Loan Eligibility Prediction Streamlit App</h1>
             </div>"""
